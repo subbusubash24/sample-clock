@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.clock-holder{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+}
+.dial{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 0 4px black;
+}
+.large-bar-holder{
+    height: 400px;
+    width: 10px;
+    /* border: 1px solid red; */
+    top: 0px;
+    left: 195px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.large-bar{
+    height: 20px;
+    width:10px ;
+    background-color: black;
+}
+.small-bar-holder{
+    height: 400px;
+    width: 4px;
+    /* border: 1px solid red; */
+    top: 0px;
+    left: 198px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transform: rotate(6deg);
+
+
+}
+.small-bar{
+    height: 16px;
+    width:4px ;
+    background-color: black;
+
+}
+.center{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 190px;
+    left: 190px;
+    z-index: 1;
+
+}
+.hour-hand-holder{
+    height: 400px;
+    width: 10px;
+    /* border:1px solid red ; */
+    position: absolute;
+    top: 0px;
+    left: 195px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.hour-hand{
+    height: 100px;
+    width: 10px;
+    background-color: black;
+    margin-top: 100px;
+    border-radius: 50% 50% 0 0;
+
+}
